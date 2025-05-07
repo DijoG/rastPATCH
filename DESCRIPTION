@@ -11,3 +11,7 @@ LazyData: true
 RoxygenNote: 7.3.2
 Imports: 
     dplyr, reticulate, tictoc, terra, furrr, sf, parallelly
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
