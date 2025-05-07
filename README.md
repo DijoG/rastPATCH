@@ -24,7 +24,7 @@ result <- TILES(
 ```
 <ins>Terminal output:</ins>
 
-_Python script not found in package. Downloading from GitHub...
+Python script not found in package. Downloading from GitHub...
 Installing Python package: rasterio...
 Installing Python package: tqdm...
 
@@ -40,7 +40,7 @@ Tile size: 2000px with 20px overlap
 203.94 sec elapsed
 
 Operation completed successfully:
-Created 2296 tiles in 195.56 seconds_
+Created 2296 tiles in 195.56 seconds
 
 **Ignore warnings!**
 
@@ -53,9 +53,9 @@ fresult <- terraTILESpatches(
 ```
 <ins>Terminal output:</ins>
 
-_Processing 2296 raster files using 10 cores...
+Processing 2296 raster files using 10 cores...
  Progress: ──────────────────────────────────────────── 100%5043.89 sec elapsed
 Processing completed in 84.06 minutes
 Merging processed polygons...
 Seperating polygons to multipolygons and polygons...
-Merging multipolygons..._
+Merging multipolygons...
