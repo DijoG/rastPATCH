@@ -1,0 +1,13 @@
+Package: rastPATCH
+Type: Package
+Title: rastPATCH
+Version: 0.1.0
+Author: Gergo Dioszegi
+Maintainer: The package maintainer <dijogergo@gmail.com>
+Description: fast clumping of a large raster.
+License: AGPL-3.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr, reticulate, tictoc, terra, furrr, sf, parallelly
