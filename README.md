@@ -53,3 +53,5 @@ fresult <- terraTILESpatches(
 )
 ```
 **Terminal output:** 
+
+Processing 2296 raster files using 10 cores...
