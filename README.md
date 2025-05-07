@@ -57,3 +57,9 @@ Processing completed in 84.06 minutes<br/>
 Merging processed polygons...<br/>
 Seperating polygons to multipolygons and polygons...<br/>
 Merging multipolygons...<br/>
+9184.56 sec elapsed<br/>
+
+Done! Processed 2296/2296 files in 153.08 minutes<br/>
+Output: 10805900 features (avg 114.85 m2)<br/>
+
+**Ignore warnings!**
