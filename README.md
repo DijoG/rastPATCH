@@ -1,9 +1,9 @@
 The **rastPATCH** package provides two functions: *TILES()* and *terraTILESpatches()*. 
-The *TILES()* function uses a Python (2D arrays) script for fast tiling of a huge raster with user-defined overlap between the tiles.
-Core of the *terraTILESpatches()* function is the C++-backed *terra::patches()* on the tiles processed by *TILES()*.
+The *TILES()* function uses a Python (rasterio  ~ 2D arrays) script for fast tiling of a huge raster with user-defined overlap between the tiles.
+Core of the *terraTILESpatches()* function is the C++-backed *terra::patches()* patching (clumping) the tiles processed by *TILES()*.
 
 ### Dependencies
-reticulate, dplyr, terra, furrr, sf, parallelly, tictoc
+reticulate, dplyr, terra, furrr, sf, parallelly, tictoc automatically installed if any/all of them are missing
 
 ### Installation
 
@@ -22,9 +22,9 @@ result <- TILES(
   overlap = 20
 )
 ```
-**Terminal output:** 
+<ins>Terminal output:</ins>
 
-Python script not found in package. Downloading from GitHub...
+***Python script not found in package. Downloading from GitHub...
 Installing Python package: rasterio...
 Installing Python package: tqdm...
 
@@ -40,7 +40,7 @@ Tile size: 2000px with 20px overlap
 203.94 sec elapsed
 
 Operation completed successfully:
-Created 2296 tiles in 195.56 seconds
+Created 2296 tiles in 195.56 seconds***
 
 **Ignore warnings!**
 
@@ -51,6 +51,11 @@ fresult <- terraTILESpatches(
   num_processes = NULL                           # NULL for automatic core detection capped at 10 cores
 )
 ```
-**Terminal output:** 
+<ins>Terminal output:</ins>
 
-Processing 2296 raster files using 10 cores...
+***Processing 2296 raster files using 10 cores...
+ Progress: ──────────────────────────────────────────── 100%5043.89 sec elapsed
+Processing completed in 84.06 minutes
+Merging processed polygons...
+Seperating polygons to multipolygons and polygons...
+Merging multipolygons...
