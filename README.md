@@ -32,14 +32,14 @@ Starting tiling process:<br/>
     Input: DEM_Wadis_cm1.tif<br/>
     Output: D:/test/tiles<br/>
     Tile size: 2000px with 20px overlap<br/>
-Creating overlapping tiles: 100%|██████████| 2296/2296 [03:17<00:00, 11.60it/s]
+Creating overlapping tiles: 100%|██████████| 2296/2296 [03:17<00:00, 11.60it/s]<br/>
 
-Success! Overlapping tiles saved to: D:\GTM\test\tiles
-Total tiles created: 2296
-Tile size: 2000px with 20px overlap
-203.94 sec elapsed
+Success! Overlapping tiles saved to: D:\GTM\test\tiles<br/>
+Total tiles created: 2296<br/>
+Tile size: 2000px with 20px overlap<br/>
+203.94 sec elapsed<br/>
 
-Operation completed successfully:
+Operation completed successfully:<br/>
 Created 2296 tiles in 195.56 seconds
 
 **Ignore warnings!**
