@@ -44,8 +44,6 @@ Created 2296 tiles in 195.56 seconds
 **Ignore warnings!**
 
 ```r
-require(fastPATCH)
-
 fresult <- terraTILESpatches(
   input_dir = result,                            # stored path to the processed tiles' directory
   output_path = paste0(result, "/test.geojson"), # or: /test.gpkg, /test.shp
