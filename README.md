@@ -24,14 +24,14 @@ result <- TILES(
 ```
 <ins>Terminal output:</ins>
 
-Python script not found in package. Downloading from GitHub...
-Installing Python package: rasterio...
-Installing Python package: tqdm...
+Python script not found in package. Downloading from GitHub...<br/>
+Installing Python package: rasterio...<br/>
+Installing Python package: tqdm...<br/>
 
-Starting tiling process:
-    Input: DEM_Wadis_cm1.tif
-    Output: D:/test/tiles
-    Tile size: 2000px with 20px overlap
+Starting tiling process:<br/>
+    Input: DEM_Wadis_cm1.tif<br/>
+    Output: D:/test/tiles<br/>
+    Tile size: 2000px with 20px overlap<br/>
 Creating overlapping tiles: 100%|██████████| 2296/2296 [03:17<00:00, 11.60it/s]
 
 Success! Overlapping tiles saved to: D:\GTM\test\tiles
@@ -53,9 +53,9 @@ fresult <- terraTILESpatches(
 ```
 <ins>Terminal output:</ins>
 
-Processing 2296 raster files using 10 cores...
- Progress: ──────────────────────────────────────────── 100%5043.89 sec elapsed
-Processing completed in 84.06 minutes
-Merging processed polygons...
-Seperating polygons to multipolygons and polygons...
-Merging multipolygons...
+Processing 2296 raster files using 10 cores...<br/>
+ Progress: ──────────────────────────────────────────── 100%5043.89 sec elapsed<br/>
+Processing completed in 84.06 minutes<br/>
+Merging processed polygons...<br/>
+Seperating polygons to multipolygons and polygons...<br/>
+Merging multipolygons...<br/>
