@@ -1,6 +1,6 @@
 The **rastPATCH** package provides a two-step workflow for patching (clumping) large raster data. 
 First, the *TILES()* function, powered by a Python script, efficiently creates overlapping tiles from the input raster. 
-Second, the *terraTILESpatches()* function processes these tiles in parallel using the fast, C++-based *terra::patches()* function for identifying and defining patches..
+Second, the *terraTILESpatches()* function processes these tiles in parallel using the fast, C++-based *terra::patches()* function for identifying and defining patches.
 
 ### Dependencies
 *reticulate*, *dplyr*, *terra*, *furrr*, *sf*, *parallelly*, *tictoc* are automatically installed (if any/all of them are missing).
