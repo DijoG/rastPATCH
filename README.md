@@ -15,7 +15,8 @@ devtools::install_github("DijoG/fastPATCH")
 ```r
 require(fastPATCH)
 
-result <- TILES(
+result <- 
+  TILES(
   input_path = "D:/GTM/DEM_Wadis_cm1.tif",
   output_dir = "D:/GTM/test",
   tile_size = 2000,
@@ -44,8 +45,9 @@ Created 2296 tiles in 195.56 seconds
 **Ignore warnings!**
 
 ```r
-fresult <- terraTILESpatches(
-  input_dir = result,                            # stored path to the tiled GEOtiffs' directory
+fresult <- 
+  terraTILESpatches(
+  input_dir = result,                            # stored path to the tiled .tifs' directory
   output_path = paste0(result, "/test.geojson"), # or: /test.gpkg, /test.shp
   num_processes = NULL                           # NULL for automatic core detection capped at 10 cores
 )
