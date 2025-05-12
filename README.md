@@ -13,7 +13,7 @@ devtools::install_github("DijoG/fastPATCH")
 ### Example
 
 ```r
-require(fastPATCH)
+require(rastPATCH)
 
 result <- 
   TILES(
