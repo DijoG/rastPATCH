@@ -8,7 +8,7 @@ Second, the *terraTILESpatches()* function processes these tiles in parallel usi
 ### Installation
 
 ```r
-devtools::install_github("DijoG/fastPATCH")
+devtools::install_github("DijoG/rastPATCH")
 ```
 ### Example
 
