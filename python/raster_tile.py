@@ -41,7 +41,7 @@ def tile_raster_with_overlap(
     input_path: str,
     output_dir: str = "output",
     tile_size: int = 1000,
-    overlap: int = 100
+    overlap: int = 10
 ):
     """
     Tile a raster file into smaller chunks with overlap and save them.
@@ -131,11 +131,3 @@ def tile_raster_with_overlap(
     finally:
         if 'temp_dir' in locals():
             shutil.rmtree(temp_dir, ignore_errors=True)
-
-if __name__ == "__main__":
-    tile_raster_with_overlap(
-        input_path = "D:/BPLA Dropbox/03 Planning/1232-T2-TM2_1-GIS-Remote-Sensing/06_GIS-Data/12_Digitized_Geotechnical/GTM/DEM_Wadis_cm1.tif",
-        output_dir = "D:/BPLA Dropbox/03 Planning/1232-T2-TM2_1-GIS-Remote-Sensing/06_GIS-Data/12_Digitized_Geotechnical/GTM",     
-        tile_size = 2000,
-        overlap = 20
-    )
